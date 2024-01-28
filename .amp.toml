@@ -14,9 +14,8 @@ categories = ["example"]
 builder = "ghcr.io/amp-buildpacks/move-builder"
 
 [partners]
-snarkos = { version = "latest", registry = "catalog" }
+aptos = { version = "aptos-node-v1.9.2", registry = "catalog" }
 
 [build.env]
 BP_ENABLE_APTOS_DEPLOY = "false"
 # BP_APTOS_DEPLOY_PRIVATE_KEY = "<Your-Deploy-Private-Key>"
-# CNB_LOG_LEVEL = "info"
