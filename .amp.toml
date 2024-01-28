@@ -14,7 +14,7 @@ categories = ["example"]
 builder = "ghcr.io/amp-buildpacks/move-builder"
 
 [partners]
-aptos = { version = "aptos-node-v1.9.2", registry = "catalog" }
+aptos = { version = "1.9.2", registry = "catalog" }
 
 [build.env]
 BP_ENABLE_APTOS_DEPLOY = "false"
