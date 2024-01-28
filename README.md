@@ -1,1 +1,1 @@
-# amp-example-move
+# amp-example-aptos
