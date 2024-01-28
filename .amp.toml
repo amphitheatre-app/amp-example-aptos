@@ -1,0 +1,22 @@
+name = "amp-example-aptos"
+version = "0.1.0"
+edition = "v1"
+description = "A simple Aptos example app"
+readme = "README.md"
+homepage = "https://github.com/amphitheatre-app/amp-example-aptos"
+repository = "https://github.com/amphitheatre-app/amp-example-aptos"
+license = "Apache-2.0"
+license-file = "LICENSE"
+keywords = ["example", "aptos", "getting-started"]
+categories = ["example"]
+
+[build]
+builder = "ghcr.io/amp-buildpacks/move-builder"
+
+[partners]
+snarkos = { version = "latest", registry = "catalog" }
+
+[build.env]
+BP_ENABLE_APTOS_DEPLOY = "false"
+# BP_APTOS_DEPLOY_PRIVATE_KEY = "<Your-Deploy-Private-Key>"
+# CNB_LOG_LEVEL = "info"
