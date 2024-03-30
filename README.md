@@ -10,7 +10,7 @@ This is an example of using Aptos with AMP.
 
 ```toml
 [addresses]
-todolist_addr='<YOUR-ACCOUNT>'
+hello_blockchain='<YOUR-ACCOUNT>'
 ```
 
 * Update private key in `.amp.toml`
