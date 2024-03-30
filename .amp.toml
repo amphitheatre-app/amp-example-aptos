@@ -17,5 +17,5 @@ builder = "ghcr.io/amp-buildpacks/move-builder"
 aptos = { version = "1.9.2", registry = "catalog" }
 
 [build.env]
-BP_ENABLE_APTOS_DEPLOY = "false"
-# BP_APTOS_DEPLOY_PRIVATE_KEY = "<Your-Deploy-Private-Key>"
+BP_ENABLE_APTOS_DEPLOY = "true"
+BP_APTOS_DEPLOY_PRIVATE_KEY = "<Your-Deploy-Private-Key>"
